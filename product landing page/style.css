@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background-color: #dafbfd;
+}
+
+#nav-link{
+    background-color: rgb(61, 10, 247);
+    display:flex;
+    justify-content:end;
+    padding:15px;
+    position:fixed;
+    width:100%;
+}
+
+nav a{
+    color:white;
+    margin-left: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:rgb(228, 102, 113);
+    border-bottom:3px solid rgb(194, 79, 79);
+    transform:translate(5%);
+}
+
+#main-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+
+#home h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 5px auto;
+    padding-top:45px;
+    text-decoration:underline;
+    color:lightslategray;
+}
+
+#home p{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    padding-left: 5px;
+    max-width: 600px;
+    flex-wrap: wrap;
+    text-indent: 15px;
+}
+ h1{
+    text-align: center;
+    margin: 10px auto;
+    padding:10px;
+    color: lightslategray;
+    text-decoration: underline;
+}
+
+#product{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+    background-color: #78f542;
+}
+
+.product-menu{
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 10px auto;
+    background-color: lightsteelblue;
+    border: 1px solid black;
+}
+#image{
+    max-width: 100%;
+    padding: 5px;
+}
+
+figcaption{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#video-frame{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    flex-direction: column;
+}
+#video{
+    margin:5px 10px;
+    max-width: 90%;
+}
+
+#more{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    max-width: 600px;
+    flex-wrap: wrap;
+    margin:15px auto;
+}
+
+#email{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:30px auto;
+    padding:5px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#submit{
+    margin: 5px 10px;
+    padding:5px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: green;
+    color:white;
+}
+#submit:hover{
+    background-color:red;
+    transform:translateX(5%);
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    padding: 10px;
+}
